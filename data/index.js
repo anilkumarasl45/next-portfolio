@@ -96,7 +96,7 @@ export const projects = [
     title: "React Restaurant - A food ordering app",
     des: "Say goodbye to cravings. React Restaurant provides you dishes from all over the world",
     img: "/p4.png",
-    iconLists: ["/re.svg", "/rzp.svg", "/js.svg", "/rem.svg", "/mdb.svg"],
+    iconLists: ["/re.svg", "/rzp.png", "/js.svg", "/rce.png", "/mdb.svg"],
     link: "https://react-restaurant-eta.vercel.app/",
   },
   {
