@@ -67,7 +67,7 @@ export const FloatingNav = ({
             )}
           >
             <div className="flex justify-center items-center gap-2">
-              <span className="block sm:hidden">{navItem.icon}</span>
+              <span className="block md:hidden">{navItem.icon}</span>
               <span className=" text-sm !cursor-pointer">{navItem.name}</span>
             </div>
           </Link>
