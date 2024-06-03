@@ -1,13 +1,8 @@
-import { FaHome } from "react-icons/fa";
-import { IoMdInformationCircle } from "react-icons/io";
-import { GrProjects } from "react-icons/gr";
-import { MdContacts } from "react-icons/md";
-
 export const navItems = [
-  { name: "Home", link: "/", icon: <FaHome />},
-  { name: "About", link: "#about", icon: <IoMdInformationCircle /> },
-  { name: "Projects", link: "#projects", icon: <GrProjects /> },
-  { name: "Contact", link: "#contact", icon: <MdContacts /> },
+  { name: "Home", link: "/"},
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Contact", link: "#contact"},
 ];
 
 export const gridItems = [
