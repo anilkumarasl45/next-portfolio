@@ -1,8 +1,13 @@
+import { FaHome } from "react-icons/fa";
+import { IoMdInformationCircle } from "react-icons/io";
+import { GrProjects } from "react-icons/gr";
+import { MdContacts } from "react-icons/md";
+
 export const navItems = [
-  { name: "Home", link: "/"},
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact"},
+  { name: "Home", link: "/", icon: <FaHome /> },
+  { name: "About", link: "#about", icon: <IoMdInformationCircle /> },
+  { name: "Projects", link: "#projects", icon: <GrProjects /> },
+  { name: "Contact", link: "#contact", icon: <MdContacts /> },
 ];
 
 export const gridItems = [
@@ -71,12 +76,12 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Keeper App - A Note taking App",
-    des: "Take important notes with Keeper. Keeper app secures your notes, and removes the hustle of writing.",
-    img: "/p1.png",
-    iconLists: ["/re.svg", "/mui.svg", "/js.svg", "/ex.svg", "/mdb.svg"],
-    link: "https://keeper-app-xi-six.vercel.app",
+    id: 3,
+    title: "Prescripto - Full Healthcare System",
+    des: "A full Healthcare system, from appointments booking to consultation. Never worry about your health again.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/rzp.png", "/s.svg", "/tail.svg", "/mdb.svg"],
+    link: "https://react-restaurant-eta.vercel.app/",
   },
   {
     id: 2,
@@ -87,19 +92,19 @@ export const projects = [
     link: "https://next-video-taupe.vercel.app/",
   },
   {
-    id: 3,
-    title: "React Restaurant - A food ordering app",
-    des: "Say goodbye to cravings. React Restaurant provides you dishes from all over the world",
-    img: "/p4.png",
-    iconLists: ["/re.svg", "/rzp.png", "/js.svg", "/rce.png", "/mdb.svg"],
-    link: "https://react-restaurant-eta.vercel.app/",
+    id: 1,
+    title: "Keeper App - A Note taking App",
+    des: "Take important notes with Keeper. Keeper app secures your notes, and removes the hustle of writing.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/fm.svg", "/ex.svg", "/mdb.svg"],
+    link: "https://keeper-app-xi-six.vercel.app",
   },
   {
     id: 4,
-    title: "Online Bank - A online banking app",
-    des: "A demo application of an online bank app, secured by passport.js",
+    title: "Store It - A Online Storage App",
+    des: "StoreIt Drive is a cloud-based file storage and management app that lets users securely upload, access, and organize their files online. It offers a simple and responsive interface similar to Google Drive for seamless file handling.",
     img: "/p3.png",
-    iconLists: ["/ejs.svg", "/ex.svg", "/js.svg", "/ps.svg", "/mdb.svg"],
+    iconLists: ["/next.svg", "/appw.svg", "/tail.svg", "/js.svg"],
     link: "https://onlinebank.glitch.me/",
   },
 ];
@@ -108,16 +113,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/HarshSharmaIN"
+    link: "https://github.com/HarshSharmaIN",
   },
   {
     id: 2,
     img: "/insta.svg",
-    link: "https://www.instagram.com/harshsharmaasl/"
+    link: "https://www.instagram.com/harshsharmaasl/",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/harshsharmaasl/"
+    link: "https://www.linkedin.com/in/harshsharmaasl/",
   },
 ];
