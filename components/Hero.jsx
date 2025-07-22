@@ -33,8 +33,15 @@ function Hero() {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi I&apos;m Harsh, a Web Developer based in India.
           </p>
-          <a href="#about">
-            <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
+          <a
+            href="https://drive.google.com/file/d/1ktBnrxN09vVstZ6nL5LW-9_l_nC9piVe/view?usp=sharing"
+            target="_blank"
+          >
+            <MagicButton
+              title="My Resume"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
           </a>
         </div>
       </div>
