@@ -81,7 +81,7 @@ export const projects = [
     des: "A full Healthcare system, from appointments booking to consultation. Never worry about your health again.",
     img: "/p4.png",
     iconLists: ["/re.svg", "/rzp.png", "/s.svg", "/tail.svg", "/mdb.svg"],
-    link: "https://react-restaurant-eta.vercel.app/",
+    link: "https://prescripto-griffin.netlify.app/",
   },
   {
     id: 2,
@@ -105,7 +105,7 @@ export const projects = [
     des: "StoreIt Drive is a cloud-based file storage and management app that lets users securely upload, access, and organize their files online. It offers a simple and responsive interface similar to Google Drive for seamless file handling.",
     img: "/p3.png",
     iconLists: ["/next.svg", "/appw.svg", "/tail.svg", "/js.svg"],
-    link: "https://onlinebank.glitch.me/",
+    link: "https://storeit-drive.netlify.app/",
   },
 ];
 
