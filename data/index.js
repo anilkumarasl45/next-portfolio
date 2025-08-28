@@ -1,4 +1,5 @@
 import { FaHome } from "react-icons/fa";
+import { FaBriefcase } from "react-icons/fa";
 import { IoMdInformationCircle } from "react-icons/io";
 import { GrProjects } from "react-icons/gr";
 import { MdContacts } from "react-icons/md";
@@ -6,6 +7,7 @@ import { MdContacts } from "react-icons/md";
 export const navItems = [
   { name: "Home", link: "/", icon: <FaHome /> },
   { name: "About", link: "#about", icon: <IoMdInformationCircle /> },
+  { name: "Experience", link: "#experience", icon: <FaBriefcase /> },
   { name: "Projects", link: "#projects", icon: <GrProjects /> },
   { name: "Contact", link: "#contact", icon: <MdContacts /> },
 ];
@@ -125,4 +127,119 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/harshsharmaasl/",
   },
+];
+
+export const experiences = [
+  {
+    id: 1,
+    title: "Senior Full Stack Developer",
+    company: "Tech Solutions Inc.",
+    duration: "2023 - Present",
+    description: "Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting system solutions.",
+    technologies: ["React", "Node.js", "AWS", "MongoDB", "TypeScript"],
+    type: "work"
+  },
+  {
+    id: 2,
+    title: "Full Stack Developer",
+    company: "Digital Innovations Ltd.",
+    duration: "2021 - 2023",
+    description: "Developed and maintained multiple client projects, focusing on responsive design and performance optimization. Collaborated with cross-functional teams.",
+    technologies: ["React", "Express", "PostgreSQL", "Docker"],
+    type: "work"
+  },
+  {
+    id: 3,
+    title: "Frontend Developer Intern",
+    company: "StartupXYZ",
+    duration: "2020 - 2021",
+    description: "Built user interfaces for web applications, learned modern development practices, and contributed to open-source projects.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    type: "internship"
+  },
+  {
+    id: 4,
+    title: "Computer Science Degree",
+    company: "University of Technology",
+    duration: "2017 - 2021",
+    description: "Bachelor's degree in Computer Science with focus on software engineering, algorithms, and data structures.",
+    technologies: ["Java", "Python", "C++", "Database Systems"],
+    type: "education"
+  }
+];
+
+export const webProjects = [
+  {
+    id: 3,
+    title: "Prescripto - Full Healthcare System",
+    des: "A comprehensive healthcare platform enabling appointment booking, patient management, and online consultations with integrated payment processing.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/rzp.png", "/s.svg", "/tail.svg", "/mdb.svg"],
+    link: "https://prescripto-griffin.netlify.app/",
+    category: "Healthcare",
+    features: ["Appointment Booking", "Payment Integration", "Real-time Chat", "Admin Dashboard"]
+  },
+  {
+    id: 2,
+    title: "Yoom - Video Conferencing App",
+    des: "Modern video conferencing solution with screen sharing, recording capabilities, and seamless user experience for remote collaboration.",
+    img: "/p2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/s.svg", "/c.svg"],
+    link: "https://next-video-taupe.vercel.app/",
+    category: "Communication",
+    features: ["HD Video Calls", "Screen Sharing", "Recording", "Chat Integration"]
+  },
+  {
+    id: 1,
+    title: "Keeper App - Note Taking Platform",
+    des: "Secure note-taking application with rich text editing, categorization, and cloud synchronization for seamless access across devices.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/fm.svg", "/ex.svg", "/mdb.svg"],
+    link: "https://keeper-app-xi-six.vercel.app",
+    category: "Productivity",
+    features: ["Rich Text Editor", "Cloud Sync", "Categories", "Search"]
+  },
+  {
+    id: 4,
+    title: "Store It - Cloud Storage Solution",
+    des: "Comprehensive cloud storage platform with file management, sharing capabilities, and responsive design for optimal user experience.",
+    img: "/p3.png",
+    iconLists: ["/next.svg", "/appw.svg", "/tail.svg", "/js.svg"],
+    link: "https://storeit-drive.netlify.app/",
+    category: "Storage",
+    features: ["File Upload", "Sharing", "Folder Management", "Preview"]
+  }
+];
+
+export const appProjects = [
+  {
+    id: 5,
+    title: "FitTracker - Fitness Mobile App",
+    des: "Comprehensive fitness tracking application with workout plans, progress monitoring, and social features for motivation.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/fm.svg"],
+    link: "#",
+    category: "Health & Fitness",
+    features: ["Workout Tracking", "Progress Analytics", "Social Features", "Custom Plans"]
+  },
+  {
+    id: 6,
+    title: "TaskMaster - Productivity App",
+    des: "Advanced task management application with team collaboration, time tracking, and intelligent scheduling features.",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
+    link: "#",
+    category: "Productivity",
+    features: ["Task Management", "Team Collaboration", "Time Tracking", "Analytics"]
+  },
+  {
+    id: 7,
+    title: "EcoTrack - Environmental App",
+    des: "Environmental impact tracking application helping users monitor their carbon footprint and adopt sustainable practices.",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/mdb.svg"],
+    link: "#",
+    category: "Environment",
+    features: ["Carbon Tracking", "Eco Tips", "Progress Reports", "Community"]
+  }
 ];
