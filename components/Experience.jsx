@@ -29,9 +29,9 @@ const Experience = () => {
               <div className="absolute left-2 top-6 w-4 h-4 bg-purple rounded-full border-4 border-black-100 shadow-lg"></div>
               
               {/* Content */}
-              <div className="bg-black-100 p-6 rounded-xl border border-white/[0.1] ml-8 hover:border-white/[0.2] transition-all duration-300">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                  <h3 className="text-xl font-bold text-white">
+              <div className="bg-black-100 p-4 md:p-6 rounded-xl border border-white/[0.1] ml-8 hover:border-white/[0.2] transition-all duration-300">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3 gap-2">
+                  <h3 className="text-lg md:text-xl font-bold text-white">
                     {experience.title}
                   </h3>
                   <span className="text-sm text-purple font-medium">
@@ -39,11 +39,11 @@ const Experience = () => {
                   </span>
                 </div>
                 
-                <h4 className="text-lg text-white-100 mb-3">
+                <h4 className="text-base md:text-lg text-white-100 mb-3">
                   {experience.company}
                 </h4>
                 
-                <p className="text-white-200 mb-4 leading-relaxed">
+                <p className="text-white-200 mb-4 leading-relaxed text-sm md:text-base">
                   {experience.description}
                 </p>
                 
@@ -51,7 +51,7 @@ const Experience = () => {
                   {experience.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 text-xs bg-white/[0.05] text-white-100 rounded-full border border-white/[0.1]"
+                      className="px-2 md:px-3 py-1 text-xs bg-white/[0.05] text-white-100 rounded-full border border-white/[0.1]"
                     >
                       {tech}
                     </span>
